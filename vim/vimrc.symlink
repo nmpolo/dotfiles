@@ -1,0 +1,22 @@
+" Formatting
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set nosmarttab
+set nowrap
+
+" UI
+set wildmenu
+set wildmode=list:longest,full
+set backspace=2
+set ruler
+colorscheme zellner
+
+" Tabs
+nmap <c-right> :tabnext<cr>
+imap <c-right> <c-o>:tabnext<cr>
+vmap <c-right> <c-o>:tabnext<cr>
+nmap <c-left> :tabprevious<cr>
+imap <c-left> <c-o>:tabprevious<cr>
+vmap <c-left> <c-o>:tabprevious<cr>
