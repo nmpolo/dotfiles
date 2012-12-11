@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for i in `find ~/.dotfiles/ -type f -name '*symlink*'`
+do
+
+name=`basename $i|cut -d'.' -f 1`
+end_file=`echo -n .$name`
+
+cd ~/
+
+ln -fs $i $end_file
+
+done
