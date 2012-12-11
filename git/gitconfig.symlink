@@ -1,0 +1,8 @@
+[user]
+	name = Nicholas Masters
+	email = nick@npmasters.com
+[color]
+	ui = true
+[core]
+	excludesfile = ~/.gitignore
+	editor = vim
