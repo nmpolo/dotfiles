@@ -12,6 +12,8 @@ set wildmenu
 set wildmode=list:longest,full
 set backspace=2
 set ruler
+set hlsearch
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 colorscheme zellner
 
 " Tabs
