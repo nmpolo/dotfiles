@@ -1,10 +1,13 @@
 [user]
-	name = Nicholas Masters
-	email = nick@npmasters.com
+    name = Nicholas Masters
+    email = nick@npmasters.com
+    signingkey = FFE108A2292ACC28
 [color]
-	ui = true
+    ui = true
 [core]
-	excludesfile = ~/.gitignore
-	editor = vim
+    excludesfile = ~/.dotfiles/git/gitignore
+    editor = vim
 [push]
-	default = simple
+    default = simple
+[commit]
+    template = ~/.dotfiles/git/gitmessage.txt
