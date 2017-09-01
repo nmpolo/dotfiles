@@ -23,3 +23,9 @@ vmap <c-right> <c-o>:tabnext<cr>
 nmap <c-left> :tabprevious<cr>
 imap <c-left> <c-o>:tabprevious<cr>
 vmap <c-left> <c-o>:tabprevious<cr>
+
+" Highlight lines longer than 80 characters
+" From https://stackoverflow.com/questions/2447109/showing-a-different-background-colour-in-vim-past-80-characters
+let &colorcolumn="80,".join(range(120,999),",")
+" Set the colours to be used
+highlight ColorColumn ctermbg=235 guibg=#2c2d27
