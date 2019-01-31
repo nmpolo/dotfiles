@@ -1,7 +1,7 @@
 [user]
     name = Nicholas Masters
     email = nick@npmasters.com
-    signingkey = FFE108A2292ACC28
+    signingKey = 616B681D68F30385A2F1A644FFE108A2292ACC28
 [color]
     ui = true
 [core]
@@ -11,3 +11,4 @@
     default = simple
 [commit]
     template = ~/.dotfiles/git/gitmessage.txt
+	gpgSign = true
