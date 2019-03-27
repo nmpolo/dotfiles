@@ -7,6 +7,7 @@
 [core]
     excludesfile = ~/.dotfiles/git/gitignore
     editor = vim
+    autocrlf = input
 [push]
     default = simple
 [commit]
